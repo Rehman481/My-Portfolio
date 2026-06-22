@@ -1,16 +1,46 @@
-# React + Vite
+# 🚀 Rehman Asif - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📖 About
 
-Currently, two official plugins are available:
+A modern, responsive portfolio website showcasing my work as a Software Engineering student. Built with React.js, featuring dynamic project displays and interactive animations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### ✨ Features
 
-## React Compiler
+- 🎨 **Modern UI/UX** - Clean, dark-themed design with smooth animations
+- 📱 **Fully Responsive** - Optimized for all devices (mobile, tablet, desktop)
+- 🚀 **Dynamic Project Showcase** - Filterable projects by category (ML/AI, Web Development)
+- 📧 **Interactive Contact Form** - Working contact form with email integration
+- ⚡ **Fast Performance** - Built with Vite for optimal loading speeds
+- 🎯 **Professional Animations** - Smooth scroll, hover, and entrance animations
+- 🌙 **Dark Theme** - Eye-friendly dark mode design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- **Frontend:** React.js, React Router DOM
+- **Styling:** CSS3 with animations
+- **Build Tool:** Vite
+- **Deployment:** Vercel
+- **Version Control:** Git & GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Live Demo
+
+Visit the live site: [**Portfolio Demo**](https://portfolio-vercel.vercel.app)
+
+## 🏗️ Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Rehman481/My-Portfolio.git
+
+# Enter the project folder
+cd My-Portfolio
+
+# Install all dependencies
+npm install
+
+# Install React Router (if not already installed)
+npm install react-router-dom
+
+# Start the development server
+npm run dev
+
