@@ -15,6 +15,7 @@ const getProjectIcon = (title) => {
     'Online Library Management System': '📚',
     'Netflix Clone': '📺',
     'Gemini AI Chat Clone': '🤖',
+    'FinWise - Smart Expense Tracker': '💰',
     
   };
   return iconMap[title] || '🚀';
@@ -27,8 +28,8 @@ const getProjectGradient = (title) => {
     'Online Library Management System': 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
     'Netflix Clone': 'linear-gradient(135deg, #e52d27 0%, #b31217 100%)',
     'Gemini AI Chat Clone': 'linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%)',
-    'REST API Development': 'linear-gradient(135deg, #f7971e 0%, #ffd200 100%)',
-    'Data Analysis Dashboard': 'linear-gradient(135deg, #11998e 0%, #38ef7d 100%)'
+    'FinWise - Smart Expense Tracker': 'linear-gradient(135deg, #f7971e 0%, #ffd200 100%)',
+    
   };
   return gradientMap[title] || 'linear-gradient(135deg, #ff6b6b, #ffd93d)';
 };
@@ -78,7 +79,7 @@ const ProjectCard = ({ title, description, image, tech, github, featured }) => {
           <span className="placeholder-text">{title}</span>
         </div>
 
-        {/* Actual Image */}
+       
         <img 
           src={image} 
           alt={title} 

@@ -50,7 +50,7 @@ const Hero = () => {
       observer.observe(heroContent);
     }
 
-    // Mouse parallax effect
+    
     const handleMouseMove = (e) => {
       const x = e.clientX / window.innerWidth;
       const y = e.clientY / window.innerHeight;
@@ -81,7 +81,7 @@ const Hero = () => {
 
   return (
     <section className="hero" ref={heroRef}>
-      {/* Background Elements */}
+     
       <div className="hero-background">
         <div className="bg-gradient"></div>
         <div className="bg-pattern"></div>

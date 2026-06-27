@@ -39,6 +39,16 @@ const projectsData = [
     category: 'web-dev',
     featured: false
   },
+  {
+  id: 5,
+  title: 'FinWise - Smart Expense Tracker',
+  description: 'Built a full-stack expense tracking application with Firebase Authentication and Firestore Database. Users can securely manage expenses, track income, set budgets, generate reports, and view analytics through an intuitive and responsive interface.',
+  image: '/src/assets/projects/expense-tracker.jpg',
+  tech: ['React', 'Vite', 'Firebase', 'Firestore', 'Chart.js', 'CSS'],
+  github: 'https://github.com/Rehman481/B0626---Rehman-Asif---Innovaxel---Frontend-Intern',
+    category: 'web-dev',
+  featured: true
+}
   
 ];
 
